@@ -1,0 +1,22 @@
+{
+  "name": "eip7702-hello-world",
+  "version": "1.0.0",
+  "description": "Simple EIP-7702 batch transfer example",
+  "main": "index.js",
+  "scripts": {
+    "setup-delegation": "node scripts/setup-delegation.js",
+    "batch-transfer": "node scripts/batch-transfer.js",
+    "get-approvals": "node scripts/get-approvals.js",
+    "test": "forge test"
+  },
+  "dependencies": {
+    "ethers": "^6.9.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0"
+  },
+  "keywords": ["eip-7702", "ethereum", "base", "batch-transfer"],
+  "author": "",
+  "license": "MIT"
+}
